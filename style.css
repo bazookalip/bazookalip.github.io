@@ -22,11 +22,10 @@ body {
 
 .info {
   border: 4px dotted grey;
-
   padding-top: 50px;
-   padding-right: 30px;
-   padding-bottom: 50px;
-   padding-left: 80px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
 }
 
 * {
@@ -55,8 +54,9 @@ width: 33%;
 }
 
 p {
-      font-size: 16px;
+   font-size: 16px;
     }
+
 h1 {
    text-transform: uppercase;
 
