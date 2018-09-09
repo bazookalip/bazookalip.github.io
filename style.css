@@ -6,11 +6,14 @@ html, body {
   margin-right: 75px;
   margin-bottom: 10px;
   padding: 10px;
+
+
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
+  background-color:LightGray;
 }
 
 .name {
@@ -35,15 +38,16 @@ body {
 .column {
   float: left;
   padding: 10px;
-  height: 140px;
+  height: 150px;
+  margin-bottom: 10px;
 }
 
 .left, .right {
-width: 33%;
+  width: 33%;
 }
 
 .middle {
-width: 33%;
+  width: 33%;
 }
 
 
@@ -54,20 +58,17 @@ width: 33%;
 }
 
 p {
-   font-size: 16px;
+  font-size: 16px;
     }
 
 h1 {
    text-transform: uppercase;
-
 }
 
 h2 {
-  background-color:LightGray;
   text-align: center;
 }
 
 h3 {
-  background-color:LightGray;
   text-align: center;
 }
