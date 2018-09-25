@@ -1,19 +1,29 @@
-
-
-html, body {
-  margin top: 10px;
-  margin-left: 75px;
-  margin-right: 75px;
-  margin-bottom: 10px;
-  padding: 10px;
-  background-color: LightGray;
-
+body {
+  background-color: #fbf6bd;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
- 
+p {
+  font-size: 16px;
+    }
+
+h1 {
+   text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.wrapper {
+  margin: auto;
+  width: 60%
+
 }
 
 .name {
@@ -23,13 +33,6 @@ body {
   text-align: center;
 }
 
-.info {
-  border: 4px dotted grey;
-  padding-top: 50px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;
-}
 
 * {
   box-sizing: border-box;
@@ -50,25 +53,9 @@ body {
   width: 33%;
 }
 
-
 .row:after {
   content: "";
   display: table;
   clear: both;
-}
-
-p {
-  font-size: 16px;
-    }
-
-h1 {
-   text-transform: uppercase;
-}
-
-h2 {
-  text-align: center;
-}
-
-h3 {
-  text-align: center;
+  margin: 75px;
 }
